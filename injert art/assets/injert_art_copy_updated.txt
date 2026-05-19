@@ -1,0 +1,94 @@
+INJERT ART — Copy y Contenido Estratégico
+(Target: Hombres 30-55 años, nivel socioeconómico medio-alto/alto, Querétaro)
+
+### Notas de Diseño (UI/UX)
+* Regla de Contraste: Queda estrictamente prohibido el uso de negro puro (#000000) sobre fondos claros. Para tipografía y elementos en superficies claras, utiliza azul oscuro (navy) o verde oscuro.
+* Botones y Sombras: Todos los botones de llamada a la acción (CTAs) y sus sombras directas (drop shadows) deben utilizar color dark teal (verde azulado oscuro) para destacar de forma elegante.
+
+---
+
+## 1. INTRO OVERLAY & 2. NAVIGATION
+* Enlaces de Navegación: Servicios | Resultados | El Doctor | Proceso | Contacto
+* Botón CTA (Nav): Agendar Valoración (Botón Dark Teal)
+
+## 3. HERO (#inicio)
+* Tagline: Restauración Capilar Premium en Querétaro
+* Headline: Recupera tu cabello. Recupera tu seguridad.
+* Description: Diseños frontales indetectables, máxima densidad y resultados definitivos. Cirugía capilar de alta precisión liderada por especialistas certificados en Hospital Moscati.
+* CTA Button: Agendar Valoración (Botón Dark Teal)
+* Stats Row: +2,500 procedimientos exitosos | +8 años de experiencia exclusiva en microinjerto
+
+## 4. SERVICES (#servicios)
+* Section Label: Nuestra Especialización
+* Headline: Solo hacemos una cosa. Y la hacemos extraordinariamente bien.
+* Tarjetas de Servicio:
+    * FUE: Extracción de Unidades Foliculares. Técnica mínimamente invasiva sin cicatrices lineales. Recuperación rápida y densidad natural pelo a pelo.
+    * DHI: Implantación Directa de Cabello. Control absoluto del ángulo, profundidad y dirección de cada folículo. Ideal para diseños de máxima precisión.
+    * Barba: Redensificación y diseño de barba y bigote. Perfiles simétricos y masculinos con resultados indetectables.
+    * Cejas: Restauración estética de cejas. Devolvemos el marco natural a tu mirada con una alineación perfecta.
+    * PRP: Plasma Rico en Plaquetas. Terapia celular autóloga para engrosar el cabello existente, frenar la caída y potenciar el injerto.
+    * Mesoterapia: Nutrición folicular profunda. Cóctel de péptidos, vitaminas y bloqueadores de DHT aplicados directamente en el cuero cabelludo.
+
+## 5. STATS / TRUST SIGNALS STRIP
+* Section Label: Nuestro Compromiso
+* Headline: Transparencia como principio, no como eslogan.
+* Tarjetas Glass:
+    * Sin Costos Ocultos: Lo que cotizamos en tu primera valoración es exactamente lo que pagas. Sin sorpresas de quirófano.
+    * Seguimiento 12 Meses: No te dejamos solo tras la cirugía. Incluimos revisiones periódicas durante todo un año para asegurar el éxito de tu injerto.
+    * Tecnología de Punta: Quirófanos de última generación en Hospital Moscati, cumpliendo los más altos estándares hospitalarios e internacionales.
+    * Sin Letra Chica: Honestidad médica total. Si no eres el candidato ideal para el procedimiento, te lo diremos de frente.
+
+## 6. RESULTS / BEFORE & AFTER (#resultados)
+* Section Label: Resultados Reales
+* Headline: Cada caso cuenta una historia.
+* (Etiquetas para el slider): Antes / 12 Meses Después
+
+## 7. MEDICAL TEAM (#equipo)
+* Section Label: Tu Doctor
+* Headline: Dr. Arturo Alcocer
+* Bio: Especialista en restauración capilar con más de 8 años dedicados de manera exclusiva al microinjerto. Su enfoque fusiona la precisión técnica con una aguda visión estética, diseñando líneas frontales que respetan la edad, la fisonomía y la estructura craneal de cada paciente.
+* Bio (párrafo 2): "Un injerto capilar exitoso no solo se trata de poner cabello donde ya no hay, sino de hacerlo de tal manera que nadie sepa que estuvimos ahí."
+* Credenciales: Céd. Prof. [Número] | Céd. Esp. [Número] | Miembro del [Nombre del Consejo Mexicano]
+
+## 8. PROCESS & TRANSPARENCY (#proceso)
+* Section Label: Proceso y Transparencia
+* Headline: Sin sorpresas. Sin letra chica. Así trabajamos.
+* Tarjetas de Pasos:
+    * 01. Valoración Diagnóstica: Análisis tricológico exhaustivo mediante microcámara para evaluar tu zona donante, clasificar tu alopecia y determinar tu viabilidad.
+    * 02. Diseño Arquitectónico: Trazamos la línea de implantación frente al espejo contigo. Buscamos asimetrías naturales y un ángulo perfecto para tu estructura facial.
+    * 03. Procedimiento: Intervención ambulatoria, cómoda y con anestesia local de última generación. Puedes ver una película, trabajar en tu laptop o simplemente descansar.
+    * 04. Seguimiento Clínico: Monitoreo activo al mes, a los 3, 6 y 12 meses. Tu resultado final está garantizado por nuestra supervisión médica continua.
+
+## 9. PRODUCTS (#productos)
+* Section Label: Cuidado Capilar
+* Headline: Potencia tus resultados desde casa.
+* Tarjetas de Producto:
+    * Minoxidil Original: Fórmula base dermatológica para el mantenimiento diario. Fortalece el folículo y detiene la miniaturización del cabello.
+    * Minoxidil Mujer: Concentración molecular específica adaptada a las necesidades hormonales y la sensibilidad del cuero cabelludo femenino.
+    * Minoxidil Intensivo: Tratamiento de choque post-injerto. Acelera la regeneración tisular y asegura el máximo porcentaje de supervivencia folicular.
+    * (CTA en tarjetas): Comprar vía WhatsApp (Botón Dark Teal)
+
+## 10. FAQ
+* Section Label: Preguntas Frecuentes
+* Headline: Resolvemos tus dudas antes de tu primera visita.
+* Acordeón de Preguntas:
+    * ¿El procedimiento es doloroso?
+        Utilizamos protocolos de anestesia local muy avanzados. Sentirás unas molestias mínimas los primeros 3 minutos; después, el procedimiento es completamente indoloro.
+    * ¿Tengo que raparme toda la cabeza?
+        No siempre. Contamos con técnicas como DHI y protocolos Unshaven (sin rasurar) que permiten realizar el injerto rapando únicamente pequeñas zonas estratégicas, ideal para quienes buscan máxima discreción en su entorno corporativo.
+    * ¿Cuándo podré regresar al trabajo?
+        Si haces trabajo de oficina (Home Office), puedes retomar actividades al día siguiente. Para trabajo presencial, sugerimos de 3 a 5 días de reposo social mientras desaparece el enrojecimiento inicial.
+    * ¿El cabello injertado se puede volver a caer?
+        No. Extraemos los folículos de la zona posterior y lateral de tu cabeza (zona donante), los cuales están programados genéticamente para ser inmunes a la hormona DHT que causa la calvicie. El cabello injertado te acompañará toda la vida.
+
+## 11. CONTACT (#contacto)
+* Section Label: Agenda tu cita
+* Headline: Da el primer paso hacia tu nueva imagen.
+* Description: Recibe una valoración honesta y un diagnóstico preciso por parte de médicos especialistas.
+* Columna Izquierda (Info):
+    * 📍 Hospital Moscati: Piso [X], Consultorio [X]. Juriquilla, Querétaro, Qro.
+    * 🕒 Horarios de atención: Lunes a Viernes de 9:00 a 19:00 hrs. Sábados de 9:00 a 14:00 hrs. (Previa Cita)
+* Columna Derecha (CTAs - *Todos en Dark Teal*):
+    * Hablar por WhatsApp
+    * Agendar en Doctoralia
+    * Llamar ahora

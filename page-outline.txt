@@ -1,0 +1,92 @@
+INJERT ART — Page Outline
+==========================
+
+1. INTRO OVERLAY
+   - White screen with logo fade-in + expanding line animation
+   - Auto-dismisses after 1.2s
+
+2. NAVIGATION (fixed top)
+   - Desktop: Logo (center-left) | Nav links | "Agenda Hoy" CTA (opens booking modal)
+   - Mobile: Hamburger | Logo (centered) | "Agenda" CTA (opens booking modal)
+   - Nav links: Servicios, Resultados, Equipo, Proceso, Contacto
+   - Shrinks on scroll
+
+3. HERO (#inicio)
+   - Full-screen, navy background with responsive hero images (desktop/mobile)
+   - Gradient overlay from left
+   - Left column: Tagline, headline, description, Doctoralia CTA button
+   - Right column (desktop only):
+     - Stats row: +2,500 procedures | +8 years experience
+     - Two independent review carousels (Doctoralia + Google), each with dots
+
+4. SERVICES (#servicios)
+   - Section label: "Nuestra Especializacion"
+   - Headline: "Solo hacemos una cosa. Y la hacemos extraordinariamente bien."
+   - Service cards (grid): FUE, DHI, Barba, Cejas, PRP, Mesoterapia
+   - Each card: image, title, description, hover lift effect
+
+5. STATS / TRUST SIGNALS STRIP
+   - Background image (hero.jpg) with navy overlay
+   - Section label: "Nuestro Compromiso"
+   - Headline: "Transparencia como principio, no como eslogan."
+   - 4 glass cards: Sin Costos Ocultos, Seguimiento 12 Meses, Tecnologia de Punta, Sin Letra Chica
+
+6. RESULTS / BEFORE & AFTER (#resultados)
+   - Section label: "Resultados Reales"
+   - Headline: "Cada caso cuenta una historia."
+   - Interactive before/after image sliders (drag to compare)
+
+7. MEDICAL TEAM (#equipo)
+   - Section label: "Tu Doctor"
+   - Headline: "Dr. Arturo Alcocer"
+   - Left: Doctor photo (4:5 aspect)
+   - Right: Role, bio paragraphs, credential badges (Ced. Prof., Ced. Esp., Consejo Mexicano)
+   - "Equipo de apoyo" subsection for future team members
+
+8. PROCESS & TRANSPARENCY (#proceso)
+   - Section label: "Proceso y Transparencia"
+   - Headline: "Sin sorpresas. Sin letra chica. Asi trabajamos."
+   - Numbered step cards (grid): Valoracion, Diseno, Procedimiento, Seguimiento
+   - Each card: number badge, title, description
+
+9. PRODUCTS (#productos)
+   - Section label: "Cuidado Capilar"
+   - Headline: "Potencia tus resultados desde casa."
+   - 3 product cards (full-width grid): Wenoxidil Original, Wenoxidil Mujer, Wenoxidil Intensivo
+   - Each card: product image, name, description, WhatsApp purchase CTA
+
+10. FAQ
+    - Section label: "Preguntas Frecuentes"
+    - Headline: "Resolvemos tus dudas antes de tu primera visita."
+    - Minimalist accordion: border-bottom separators, + icon rotates to x
+    - Full-width questions with large text
+
+11. CONTACT (#contacto)
+    - Background: Hospital Moscati image with gradient overlay
+    - Section label + headline + description
+    - Two-column layout:
+      - Left: Info cards (Hospital Moscati address, Horario)
+      - Right: CTA cards (WhatsApp, Doctoralia, Phone call)
+    - Glass card style matching hero
+
+12. FOOTER
+    - Solid dark navy (#091b30)
+    - Logo, copyright, Queretaro Mexico label
+
+13. FLOATING WHATSAPP BUTTON
+    - Fixed bottom-right, green circle with WhatsApp icon
+
+14. BOOKING MODAL (overlay)
+    - Triggered by nav "Agenda" CTA
+    - Two options: WhatsApp or Doctoralia
+    - Fade + slide-up animation
+
+---
+
+Tech Stack:
+- Single HTML file
+- Tailwind CSS (CDN)
+- Inter font (Google Fonts)
+- Vanilla JavaScript (no frameworks)
+- Intersection Observer for scroll animations
+- Custom CSS animations (intro, nav shrink, FAQ toggle)
