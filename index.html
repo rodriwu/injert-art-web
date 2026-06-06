@@ -477,37 +477,113 @@
         </div>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-8 mt-14">
-        <div class="fade-up">
-          <div class="ba-container aspect-[4/3] bg-navy-100" data-ba>
-            <div class="absolute inset-0 bg-gradient-to-br from-navy-200 to-navy-100 flex items-center justify-center"><span class="text-navy-300 text-sm font-medium">ANTES</span></div>
-            <div class="ba-after bg-gradient-to-br from-navy-50 to-white flex items-center justify-center"><span class="text-navy-400 text-sm font-medium">DESPUÉS</span></div>
-            <div class="ba-slider"><div class="ba-handle"><svg class="w-5 h-5 text-navy-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/></svg></div></div>
-          </div>
-          <div class="mt-4 flex items-center justify-between">
-            <div>
-              <p class="text-sm font-semibold text-navy-900">FUE + DHI — Zona frontal y coronilla</p>
-              <p class="text-xs text-navy-300">3,200 grafts · 12 meses post-op</p>
+      <!-- Cases carousel -->
+      <div class="relative mt-14" id="casos-carousel">
+        <div class="overflow-hidden rounded-2xl">
+          <div class="flex transition-transform duration-500 ease-in-out" id="casos-track">
+
+            <!-- Case 1 -->
+            <div class="min-w-full">
+              <div class="grid grid-cols-2 gap-2 sm:gap-4">
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%201a.jpeg" alt="Antes — Paciente 1" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-navy-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">ANTES</span>
+                </div>
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%201b.jpeg" alt="Después — Paciente 1" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-coral-500/90 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">DESPUÉS</span>
+                </div>
+              </div>
+              <div class="mt-4 flex items-center justify-between">
+                <div>
+                  <p class="text-sm font-semibold text-navy-900">Paciente 1 — Línea frontal</p>
+                  <p class="text-xs text-navy-300">FUE + DHI · Caso real</p>
+                </div>
+                <span class="text-xs bg-coral-50 text-coral-600 font-semibold px-3 py-1 rounded-full">Caso real</span>
+              </div>
             </div>
-            <span class="text-xs bg-coral-50 text-coral-600 font-semibold px-3 py-1 rounded-full">Caso real</span>
+
+            <!-- Case 2 -->
+            <div class="min-w-full">
+              <div class="grid grid-cols-2 gap-2 sm:gap-4">
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%202a.jpeg" alt="Antes — Paciente 2" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-navy-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">ANTES</span>
+                </div>
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%202b.jpeg" alt="Después — Paciente 2" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-coral-500/90 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">DESPUÉS</span>
+                </div>
+              </div>
+              <div class="mt-4 flex items-center justify-between">
+                <div>
+                  <p class="text-sm font-semibold text-navy-900">Paciente 2 — Zona frontal y coronilla</p>
+                  <p class="text-xs text-navy-300">FUE + DHI · Caso real</p>
+                </div>
+                <span class="text-xs bg-coral-50 text-coral-600 font-semibold px-3 py-1 rounded-full">Caso real</span>
+              </div>
+            </div>
+
+            <!-- Case 3 -->
+            <div class="min-w-full">
+              <div class="grid grid-cols-2 gap-2 sm:gap-4">
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%203a.jpeg" alt="Antes — Paciente 3" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-navy-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">ANTES</span>
+                </div>
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%203b.jpeg" alt="Después — Paciente 3" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-coral-500/90 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">DESPUÉS</span>
+                </div>
+              </div>
+              <div class="mt-4 flex items-center justify-between">
+                <div>
+                  <p class="text-sm font-semibold text-navy-900">Paciente 3 — Implante frontal total</p>
+                  <p class="text-xs text-navy-300">FUE + DHI · Caso real</p>
+                </div>
+                <span class="text-xs bg-coral-50 text-coral-600 font-semibold px-3 py-1 rounded-full">Caso real</span>
+              </div>
+            </div>
+
+            <!-- Case 4 -->
+            <div class="min-w-full">
+              <div class="grid grid-cols-2 gap-2 sm:gap-4">
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%204a.jpeg" alt="Antes — Paciente 4" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-navy-900/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">ANTES</span>
+                </div>
+                <div class="relative overflow-hidden rounded-xl bg-navy-100 aspect-[3/4]">
+                  <img src="img/casos/paciente%204b.jpeg" alt="Después — Paciente 4" class="w-full h-full object-cover object-top" />
+                  <span class="absolute top-3 left-3 bg-coral-500/90 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full tracking-widest">DESPUÉS</span>
+                </div>
+              </div>
+              <div class="mt-4 flex items-center justify-between">
+                <div>
+                  <p class="text-sm font-semibold text-navy-900">Paciente 4 — Coronilla y zona media</p>
+                  <p class="text-xs text-navy-300">FUE + DHI · Caso real</p>
+                </div>
+                <span class="text-xs bg-coral-50 text-coral-600 font-semibold px-3 py-1 rounded-full">Caso real</span>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <div class="fade-up fd1">
-          <div class="ba-container aspect-[4/3] bg-navy-100" data-ba>
-            <div class="absolute inset-0 bg-gradient-to-br from-navy-200 to-navy-100 flex items-center justify-center"><span class="text-navy-300 text-sm font-medium">ANTES</span></div>
-            <div class="ba-after bg-gradient-to-br from-navy-50 to-white flex items-center justify-center"><span class="text-navy-400 text-sm font-medium">DESPUÉS</span></div>
-            <div class="ba-slider"><div class="ba-handle"><svg class="w-5 h-5 text-navy-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l4-4 4 4m0 6l-4 4-4-4"/></svg></div></div>
-          </div>
-          <div class="mt-4 flex items-center justify-between">
-            <div>
-              <p class="text-sm font-semibold text-navy-900">FUE + DHI — Línea frontal</p>
-              <p class="text-xs text-navy-300">2,800 grafts · 10 meses post-op</p>
-            </div>
-            <span class="text-xs bg-coral-50 text-coral-600 font-semibold px-3 py-1 rounded-full">Caso real</span>
-          </div>
-        </div>
+        <!-- Prev / Next arrows -->
+        <button id="casos-prev" aria-label="Caso anterior" class="absolute left-0 top-[45%] -translate-y-1/2 -translate-x-4 sm:-translate-x-6 w-10 h-10 sm:w-12 sm:h-12 bg-white border border-navy-100 rounded-full shadow-md flex items-center justify-center text-navy-700 hover:bg-navy-50 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <button id="casos-next" aria-label="Siguiente caso" class="absolute right-0 top-[45%] -translate-y-1/2 translate-x-4 sm:translate-x-6 w-10 h-10 sm:w-12 sm:h-12 bg-white border border-navy-100 rounded-full shadow-md flex items-center justify-center text-navy-700 hover:bg-navy-50 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        </button>
 
+        <!-- Dots -->
+        <div class="flex justify-center gap-2 mt-6" id="casos-dots">
+          <button class="casos-dot w-2 h-2 rounded-full bg-navy-900 transition-all" data-index="0"></button>
+          <button class="casos-dot w-2 h-2 rounded-full bg-navy-200 transition-all" data-index="1"></button>
+          <button class="casos-dot w-2 h-2 rounded-full bg-navy-200 transition-all" data-index="2"></button>
+          <button class="casos-dot w-2 h-2 rounded-full bg-navy-200 transition-all" data-index="3"></button>
+        </div>
       </div>
 
       <div class="fade-up mt-12">
@@ -866,6 +942,33 @@
       entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
     }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
     document.querySelectorAll('.fade-up').forEach(function(el) { obs.observe(el); });
+
+    // Cases carousel
+    (function() {
+      var track = document.getElementById('casos-track');
+      var dots = document.querySelectorAll('.casos-dot');
+      var total = 4, current = 0;
+      function goTo(n) {
+        current = (n + total) % total;
+        track.style.transform = 'translateX(-' + (current * 100) + '%)';
+        dots.forEach(function(d, i) {
+          d.classList.toggle('bg-navy-900', i === current);
+          d.classList.toggle('bg-navy-200', i !== current);
+          d.classList.toggle('w-5', i === current);
+          d.classList.toggle('w-2', i !== current);
+        });
+      }
+      document.getElementById('casos-prev').addEventListener('click', function() { goTo(current - 1); });
+      document.getElementById('casos-next').addEventListener('click', function() { goTo(current + 1); });
+      dots.forEach(function(d) { d.addEventListener('click', function() { goTo(+d.dataset.index); }); });
+      // Touch swipe
+      var startX = 0;
+      track.parentElement.addEventListener('touchstart', function(e) { startX = e.touches[0].clientX; }, { passive: true });
+      track.parentElement.addEventListener('touchend', function(e) {
+        var diff = startX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 40) goTo(diff > 0 ? current + 1 : current - 1);
+      }, { passive: true });
+    })();
 
     // Preguntas frecuentes
     function toggleFaq(btn) {
